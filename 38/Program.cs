@@ -3,7 +3,7 @@ double[] array = new double[4];
 
 for (int i = 0; i < array.Length; i++)
 {
-    array[i] = random.NextDouble() * (200) - 100; // Генерируем числа в диапазоне [-100, 100)
+    array[i] = random.NextDouble() * (200) - 100;
 }
 
 Console.WriteLine("Массив:");
