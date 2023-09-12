@@ -22,4 +22,4 @@ foreach (int num in array)
     }
 }
 
-Console.WriteLine(evenCount);
+Console.WriteLine($"Сумма: {evenCount}");
